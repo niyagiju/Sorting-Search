@@ -103,11 +103,8 @@ public class TransactionAudit {
         } else {
             insertionSort(transactions);
         }
-
-        // Always run insertion sort for audit (fee + timestamp)
         insertionSort(transactions);
 
-        // Detect outliers
         detectOutliers(transactions);
     }
 }
