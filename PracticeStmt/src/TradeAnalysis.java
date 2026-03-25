@@ -98,7 +98,7 @@ public class TradeAnalysis {
         return result;
     }
 
-    // Total volume
+
     static int totalVolume(Trade[] arr) {
         int sum = 0;
         for (Trade t : arr) sum += t.volume;
@@ -111,8 +111,6 @@ public class TradeAnalysis {
                 new Trade("trade1", 100),
                 new Trade("trade2", 300)
         };
-
-        // Merge Sort (asc)
         mergeSort(trades, 0, trades.length - 1);
         System.out.println("Merge Sort: " + Arrays.toString(trades));
 

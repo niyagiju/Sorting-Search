@@ -43,7 +43,7 @@ public class RiskRanking {
         System.out.println("Swaps: " + swaps);
     }
 
-    // Insertion Sort (DESC riskScore + accountBalance)
+
     static void insertionSort(Client[] arr) {
         int n = arr.length;
 
